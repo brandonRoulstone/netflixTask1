@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://i.postimg.cc/RV5wYWFy/apps-55787-9007199266246365-687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg') fixed no-repeat center/cover;
+}
+
+.hero {
+    padding: 0rem;
+    color: white;
+    text-align: center;
+    /* background: url('https://i.postimg.cc/RV5wYWFy/apps-55787-9007199266246365-687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg') no-repeat center/cover; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img[alt="logo"] {
+    width: 17.7rem;
+    height: 10rem;
+    padding: 0rem;
+}
+
+img[alt="logos"] {
+    width: 11rem;
+    height: 3rem;
+    padding: 0rem;
+}
+
+img[alt="logo1"] {
+    width: 90rem;
+    height: 11rem;
+    padding: 0.7rem;}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding:10px 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.featured {
+    padding: 1rem;
+    background-color: #111;
+    color: white;
+}
+
+.movies {
+    padding: 1rem;
+    background-color: #111;
+    color: white;
+}
+
+footer {
+    background-color: red;
+    padding: 1px;
+    color: black;
+    text-align: center;
+}
+button { color: #111;}
+
+@media screen and (max-width: 768px) {
+}
